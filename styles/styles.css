@@ -1,0 +1,38 @@
+* {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul.nav_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.nav_bar {
+  float: left;
+}
+
+li.nav_bar a.nav_bar {
+  display: block;
+  padding: 14px 16px;
+  background-color: #333;
+  color: white;
+}
+
+a.nav_bar {
+  text-decoration: none;
+}
+
+li.nav_bar a:hover.nav_bar {
+  background-color: gray;
+}
+
+span.nav_bar {
+  align-items: center;
+}
