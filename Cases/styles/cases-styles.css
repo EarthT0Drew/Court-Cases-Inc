@@ -2,20 +2,6 @@ div.case-block>h2 {
     line-height: 35px;
 }
 
-a.goto-button {
-    font-size: 20px;
-    text-decoration: none;
-    color:black;
-    background-color: lightblue;
-    border-radius: 5px;
-    padding:10px;
-}
-
-div.goto-button {
-    width:auto;
-    text-align: center;
-}
-
 div.case-block {
   width:auto;
   height:300px;

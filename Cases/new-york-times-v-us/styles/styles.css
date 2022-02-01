@@ -1,0 +1,10 @@
+ul.nav_bar {
+    margin-bottom: 25px;
+}
+
+div.goto-button {
+    text-align: left;
+}
+a.goto-button {
+    margin-top: 25px;
+}
