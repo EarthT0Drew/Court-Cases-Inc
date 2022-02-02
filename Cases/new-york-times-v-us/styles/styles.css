@@ -9,12 +9,13 @@ a.goto-button {
     margin-top: 25px;
 }
 
-span.quick-info {
+div.quick-info {
+    width: auto;
     text-align: center;
 }
 
 p.quick-info {
-    width: fit-content;
+    width: auto;
     padding: 5px;
     line-height: 45px;
     font-size: 20px;
@@ -29,5 +30,5 @@ span.quick-info-strong {
     font-weight: 700;
     padding: 5px;
     /* border-style: solid;
-    border-radius: 5px; */
+      border-radius: 5px; */
 }
