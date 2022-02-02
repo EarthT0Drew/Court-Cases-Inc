@@ -9,14 +9,25 @@ a.goto-button {
     margin-top: 25px;
 }
 
+span.quick-info {
+    text-align: center;
+}
+
 p.quick-info {
+    width: fit-content;
+    padding: 5px;
     line-height: 45px;
     font-size: 20px;
-}
-span.quick-info-strong {
-    color: lightskyblue;
-    font-weight: 700;
-    padding: 5px;
+    text-align: center;
+    border-color: lightskyblue;
     border-style: solid;
     border-radius: 5px;
+}
+span.quick-info-strong {
+    /* border-color: lightskyblue; */
+    color: black;
+    font-weight: 700;
+    padding: 5px;
+    /* border-style: solid;
+    border-radius: 5px; */
 }
