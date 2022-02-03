@@ -4,7 +4,7 @@
 
 h1 {
   text-align: center;
-  color: rgb(50, 176, 255);
+  color: rgb(0, 102, 165);
 }
 
 ul.nav_bar {
@@ -12,7 +12,7 @@ ul.nav_bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(0, 102, 165);
 }
 
 li.nav_bar {
@@ -22,19 +22,19 @@ li.nav_bar {
 li.nav_bar a.nav_bar {
   display: block;
   padding: 14px 16px;
-  background-color: #333;
+  background-color: rgb(0, 102, 165);
   color: white;
 }
 
 a.nav_bar {
+  font-size: 20px;
   text-decoration: none;
 }
 
 li.nav_bar a:hover.nav_bar {
-  background-color: gray;
+  background-color: rgb(0, 140, 228);
 }
 li.nav_bar a:active.nav_bar {
-  color:black;
   background-color: rgb(50, 176, 255);
 }
 
@@ -45,18 +45,18 @@ span.nav_bar {
 a.goto-button {
   font-size: 20px;
   text-decoration: none;
-  color:black;
-  background-color: lightskyblue;
+  color: white;
+  background-color: rgb(0, 102, 165);
   border-radius: 5px;
   padding:10px;
 }
 
 a.goto-button:hover {
-  background-color: rgb(101, 196, 255);
+  background-color:rgb(50, 176, 255) ;
 }
 
 a.goto-button:active {
-  background-color: rgb(50, 176, 255);
+  background-color: rgb(101, 196, 255);
 }
 
 div.goto-button {

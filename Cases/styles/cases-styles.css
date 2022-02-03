@@ -1,11 +1,16 @@
+h2 {
+    color:rgb(0, 102, 165);
+}
 div.case-block>h2 {
     line-height: 35px;
 }
 
 div.case-block {
-  width:auto;
-  height:300px;
-  border:1px solid;
+  width: auto;
+  height: 300px;
+  border-color: rgb(0, 102, 165);
+  border-style: solid;
+  border-radius: 5px;
 }
 
 div.case-block>h2, div.case-block>h3 {
