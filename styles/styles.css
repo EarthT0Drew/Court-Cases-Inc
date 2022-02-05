@@ -63,3 +63,10 @@ div.goto-button {
   width:auto;
   text-align: center;
 }
+
+hr {
+  border-style: solid;
+  border-top-width: 2px;
+  border-color:rgb(0, 140, 228);
+  margin: 50px;
+}
