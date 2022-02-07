@@ -1,3 +1,6 @@
+h2 {
+    text-align: center;
+}
 ul.nav_bar {
     margin-bottom: 25px;
 }
@@ -33,10 +36,21 @@ span.quick-info-strong {
 *.info {
     text-align: center;
 }
-div.info {
-    text-align: center;
+div.info-subdiv {
+    border: solid rgb(0, 102, 165);
+    border-radius: 5px;
+    margin: 25px;
+    margin-left: 0;
+    margin-right: 0;
 }
 p.info {
     text-align: left;
     width: 50%;
+    display: inline-block;
+    font-size: large;
+}
+
+div.cited {
+    border: solid rgb(0, 102, 165);
+    border-radius: 5px;
 }
